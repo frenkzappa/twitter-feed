@@ -12,7 +12,8 @@ build:
     - script:
         name: maven build
         code: mvn clean assembly:assembly
-
+        
+#Added comment to trigger new compilation
 #Push the docker image with our built and tested application to Docker Hub
 push-release:
   steps:
